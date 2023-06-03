@@ -2,7 +2,7 @@
 ------------------------------ READ ME -----------------------------------------
 
 This code requires <sqlite3.h> library. It can be installed by the command: 
-$ sudo apt install sqlite3
+$ sudo apt install libsqlite3-dev
 
 This code can be compiled as follows:
 $ g++ miniaims.cpp -l sqlite3 -o miniaims.out
